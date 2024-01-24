@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap');
+html{
+    font-size: 62.5%;
+    line-height: 1.6;
+
+}  
+body{
+    font: 1.6rem 'Roboto Slab',sans-serif;
+    background-color: #fafafa;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    background-color: #CBD9E0;
+    
+}
+img{
+    vertical-align: middle;
+}
+    h1,h2,h3,figure{
+    font-weight: 200;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+input{
+    font-size: inherit;
+}
+
+/* theme */
+aside, main{
+    max-width: 80rem;
+    margin: 5rem auto;
+    background: #fff;
+    padding: .5rem 0;
+    border-radius: .4rem;
+    box-shadow: 0 0 .8rem rgba(0,0,0,.2);
+}
+header h1{
+    background: #222;
+    color: #fff;
+    line-height: 9rem;
+}
+section{
+    padding: 1rem;
+}
+section form input, :is(label){
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    
+
+}
+.form-control, .form-select, .btn{
+    line-height: 2.5rem;
+}
+.btn{
+    text-transform: uppercase;
+    width: 25%;
+    margin-top: 1rem;
+}
+.blankslate{
+    text-align: left;
+}
+.blankslate .flash{
+    margin-top: 1rem;
+}
+section .success{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
